@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>网页版2048</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h2>网页版2048</h2>
+		<button id="newgame" onclick="newgame()">New Game</button>
+		<p>score:<span id="score">0</span></p>
+	</header>
+	<div id="container">
+	<table><tr>
+		<td><div class="grid-cell" id="cell11"></div></td>
+		<td><div class="grid-cell" id="cell12"></div></td>
+		<td><div class="grid-cell" id="cell13"></div></td>
+		<td><div class="grid-cell" id="cell14"></div></td>
+	</tr><tr>
+		<td><div class="grid-cell" id="cell21"></div></td>
+		<td><div class="grid-cell" id="cell22"></div></td>
+		<td><div class="grid-cell" id="cell23"></div></td>
+		<td><div class="grid-cell" id="cell24"></div></td>
+	</tr><tr>
+		<td><div class="grid-cell" id="cell31"></div></td>
+		<td><div class="grid-cell" id="cell32"></div></td>
+		<td><div class="grid-cell" id="cell33"></div></td>
+		<td><div class="grid-cell" id="cell34"></div></td>
+	</tr><tr>
+		<td><div class="grid-cell" id="cell41"></div></td>
+		<td><div class="grid-cell" id="cell42"></div></td>
+		<td><div class="grid-cell" id="cell43"></div></td>
+		<td><div class="grid-cell" id="cell44"></div></td>
+	</tr></table>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="view.js"></script>
+	<script type="text/javascript" src="move.js"></script>
+	<footer>Copyright &copy.hoifong All rights reserved</footer>
+</body>
+</html>
