@@ -1,1 +1,11 @@
-It is a tiny pro.
+项目源码包括5个文件：
+index.html
+该文件为输出页
+main.js
+该文件为主程序入口
+move.js
+该文件定义了方块移动函数
+style.css
+该文件定义了方块，及页面样式
+view.js
+该文件对方块的运动进行输出
